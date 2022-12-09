@@ -1,0 +1,116 @@
+#1
+16 NOV 
+
+JS is interpreted language
+Clent side scripted language which run in browser 
+Js Engine 
+
+Js code --> Js Engine --> Parser --> (Abstract syntax tree) --> machine code --> Run code and output
+
+
+#2 Execuation context and  Execuation stack
+
+Every browser has their own js engine like chrome has v8 
+
+Execuation Context -- The environment in which our code is execuated and evaluated
+
+Global Execuation Context -- Default 
+
+
+Execuation Stack --> (Calling Stack)  stack -> last in first out
+
+Es to store Execuation context (LIFO)
+
+
+Whenever a function is called Execuation context for that particular function is created .
+
+## 17 NOV
+
+
+
+**** 3 Call stack and Execuation context ***
+
+*** 18 NOV **
+
+Creation phase and Execuation phase and hoisting 
+
+1) Variable Object
+2) Scope Chain
+3) 'this' Variable
+
+
+2 Phase -- 1) Creation Phase
+           2) Execuation Phase
+
+
+
+hoisting is js machanism where Variable and function declaration are moved to
+top of their scope before the code Execuation
+
+
+
+
+** hoisting in js ***
+# 5
+
+
+** Variable hoisting **
+# 6
+
+
+
+** Exericse on Advanced Js ** 
+
+
+# scope Chain and lexical scoping
+
+
+The Scope chain is used to resolve the value of Variable names in js
+
+Scope Chain in js is lexically defined , which means that we can see what the scope chain 
+will be by looking at the code .
+
+
+lexical Scoping --> A function that is lexically within another function 
+                    get access to the scope of the outer function .
+
+
+
+
+    ** JS IS WEIRD ** 
+
+
+use strict mode  --> new feature of ECMAscript 5
+
+this statements instructs the browser to use the strict mode which is the reduced 
+and safe feature set of js
+
+
+*** This keyword in js ***
+
+Different values depending on where it is used .
+
+Referes to the object it belongs to 
+
+Global object = window
+
+Alone --> Global Object
+Regular Function --> Global Object
+Method --> Owner Object
+
+
+In a function , in strict mode this is undefined .
+
+
+29 NOV -->
+
+Exericse 2
+
+
+
+
+
+
+
+
+

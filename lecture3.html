@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>LECTURE 3</h1>
+
+
+
+
+
+    <script>
+
+       var globalVar = "added";
+
+       function a(){
+           var fa = "1st function";
+           console.log(fa);
+           debugger;
+           b();
+           console.log('lets see when i will come on console');
+       }
+
+       function b(){
+           debugger;
+           console.log('2nd function');
+           c();
+       }
+
+       function c(){
+           debugger;
+           console.log('2nd function');
+       }
+
+       debugger;
+
+       a();
+
+
+
+
+    </script>
+    
+</body>
+</html>
